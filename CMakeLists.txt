@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.9)
 
 project(maliit-keyboard VERSION 2.3.1)
 
-option(enable-hunspell "Use hunspell for error correction (maliit-keyboard-plugin only)" ON)
-option(enable-tests "Build tests" ON)
+option(enable-hunspell "Use hunspell for error correction (maliit-keyboard-plugin only)" OFF)
+option(enable-tests "Build tests" OFF)
 
 # Install paths
 include(GNUInstallDirs)
